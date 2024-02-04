@@ -1,0 +1,98 @@
+body {
+  color: azure;
+  background-color: rgb(27, 27, 27);
+  margin: 0;
+}
+
+#encabezado {
+  width: 100%;
+  height: auto;
+  border: outset;
+  border-color: crimson;
+  display: flex;
+  align-items: center;
+}
+
+.componentes {
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+  margin-left: 20px;
+  position: relative;
+  left: 660px;
+}
+
+h1,
+h3 {
+  margin: 10px 0;
+}
+
+h1 {
+  color: crimson;
+  text-align: left;
+}
+
+h3 {
+  color: azure;
+}
+
+.cuerpo1 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+}
+
+.lenovo1 {
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+  margin-left: 20px;
+  position: static;
+}
+
+.cuerpo2 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+}
+
+.lenovo2 {
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+  margin-left: 20px;
+  position: static;
+}
+
+.cuerpo3 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+}
+
+.lenovo3 {
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+  margin-left: 20px;
+  position: static;
+}
+
+.pie {
+  width: 100%;
+  height: auto;
+  display: block;
+  align-items: center;
+  background-color: crimson;
+}
+
+#pieunico {
+  text-align: center;
+}
+
+div p {
+  margin: 10px;
+}

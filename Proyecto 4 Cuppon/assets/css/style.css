@@ -1,0 +1,21 @@
+body {
+  font-family: roboto;
+  background-color: #fff;
+}
+
+h5 {
+  color: #212529;
+}
+
+#Cards p {
+  color: #707070;
+}
+
+#Form p {
+  text-align: center;
+  color: #fff;
+}
+
+#Cierre p {
+  color: #707070;
+}

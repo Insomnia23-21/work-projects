@@ -1,0 +1,174 @@
+body {
+  background-color: #ffffff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+}
+
+.flex-container {
+  display: flex;
+  margin: 0;
+}
+
+.flex-container .izquierda {
+  background-color: #a17fc9;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+
+.izquierda .barra-lateral {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  min-width: 300px;
+}
+
+.izquierda .barra-lateral .usuario {
+  list-style: none;
+  border: solid #d4d4d4;
+  display: flex;
+  justify-content: space-around;
+}
+
+.barra-lateral .usuario .foto1 {
+  background-image: url(../Img/javier.jpg);
+  background-size: cover;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  margin-top: 7px;
+}
+
+.barra-lateral .usuario .nombre {
+  font-size: x-small;
+}
+
+.barra-lateral .usuario .nombre .estado {
+  color: #d1d1d1;
+}
+
+.izquierda .barra-lateral .espacio-botón {
+  list-style: none;
+  border-left: solid #d4d4d4;
+  border-right: solid #d4d4d4;
+  background-color: #ffffff;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.barra-lateral .espacio-botón .botón {
+  justify-content: center;
+  background-color: #a17fc9;
+  width: 160px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.izquierda .barra-lateral .CN {
+  font-size: small;
+  margin-bottom: 0;
+  margin-left: 10px;
+}
+
+.izquierda .barra-lateral .chat {
+  color: #d4d4d4;
+  margin-top: 0;
+  margin-left: 10px;
+}
+
+.izquierda .barra-lateral .contacto1 {
+  list-style: none;
+  border: solid #d4d4d4;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.barra-lateral .contacto1 .foto2 {
+  background-image: url(../Img/maria.jpg);
+  background-size: cover;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  margin-top: 7px;
+  margin-left: 30px;
+  margin-right: 10px;
+}
+
+.barra-lateral .contacto1 .nombre2 {
+  font-size: x-small;
+}
+
+.izquierda .barra-lateral .contacto2 {
+  list-style: none;
+  border-left: solid #d4d4d4;
+  border-right: solid #d4d4d4;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.barra-lateral .contacto2 .foto3 {
+  background-image: url(../Img/lorena.jpg);
+  background-size: cover;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  margin-top: 7px;
+  margin-left: 30px;
+  margin-right: 10px;
+}
+
+.barra-lateral .contacto2 .nombre3 {
+  font-size: x-small;
+}
+
+.izquierda .barra-lateral .contacto3 {
+  list-style: none;
+  border: solid #d4d4d4;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.barra-lateral .contacto3 .foto4 {
+  background-image: url(../Img/eugenio.jpg);
+  background-size: cover;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  margin-top: 7px;
+  margin-left: 30px;
+  margin-right: 10px;
+}
+
+.barra-lateral .contacto3 .nombre4 {
+  font-size: x-small;
+}
+
+.flex-container .derecha {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.derecha .imagen {
+  background-image: url(../Img/hand.png);
+  width: 180px;
+  height: 180px;
+  background-size: cover;
+  border-radius: 10%;
+}
+
+.derecha .titulo {
+  font-size: 33px;
+}
+
+.derecha .contenido {
+  text-align: center;
+  max-width: 700px;
+}
